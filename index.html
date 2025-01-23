@@ -20,5 +20,14 @@
         </div>
     </div>
 </body>
+<script>
+    const dl = new URLSearchParams(window.location.search).get("dl");
+
+    if(dl) {
+        DeepLink.href = dl;
+        const newUrl = window.location.origin + window.location.pathname;
+        window.history.replaceState(null, "", newUrl);
+    }
+</script>
 <script src="./script/main.js"></script>
 </html>
