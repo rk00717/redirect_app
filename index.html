@@ -6,7 +6,7 @@
     <title>RKode Games | SignIn Success</title>
     <link rel="stylesheet" href="./styles/style.css">
 </head>
-<body onload="initiate()">
+<body>
     <div class="container">
         <nav>RKode Games</nav>
         <div class="message-container">
@@ -21,7 +21,6 @@
     </div>
 </body>
 <script>
-function initiate() {
     const dl = new URLSearchParams(window.location.search).get("dl");
     DeepLink.href = dl;
     
@@ -30,6 +29,5 @@ function initiate() {
     //     window.history.replaceState("", "", newUrl);
     //     DeepLink.href = dl;
     // }
-}
 </script>
 </html>
