@@ -1,0 +1,19 @@
+:root{
+    --bg-primary: #001817;
+    --bg-secondary: #220117;
+    /* --bg-secondary: #e1eec3; */
+
+    --font-primary: #292525;
+    --font-secondary: #e3e9f5;
+    /* --font-secondary: #fffee0; */
+}
+
+@font-face {
+    font-family: "Quebecks";
+    src: url("./fonts/Quebecks.ttf");
+}
+
+@font-face {
+    font-family: "Teacher";
+    src: url("./fonts/Teacher.ttf");
+}
