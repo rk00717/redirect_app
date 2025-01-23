@@ -1,0 +1,1 @@
+DeepLink.href = new URLSearchParams(window.location.search).get("dl");
