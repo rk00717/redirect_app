@@ -23,6 +23,7 @@
 <script>
 function initiate() {
     const dl = new URLSearchParams(window.location.search).get("dl");
+    DeepLink.href = dl;
     
 //     if(dl) {
 //         const newUrl = window.location.origin;
