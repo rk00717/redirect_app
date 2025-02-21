@@ -43,6 +43,7 @@ nav {
     position: relative;
 
     padding: 70px 60px;
+    padding-bottom: 120px;
 }
 
 .message-bg {
@@ -59,4 +60,11 @@ nav {
     border-radius: 10px;
 
     pointer-events: none;
+}
+
+.deeplink-btn {
+    position: absolute;
+    right: 60px;
+    bottom: 50px;
+    font-weight: 100;
 }
