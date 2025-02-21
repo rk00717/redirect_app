@@ -14,10 +14,12 @@
 
 nav {
     position: absolute;
-    margin: auto 0;
     top: 0;
-
+    margin: auto 0;
     padding: 20px;
+
+    display: flex;
+    justify-content: center;
     width: 80vw;
 
     font-family: "Teacher";
